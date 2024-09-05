@@ -2,7 +2,7 @@ import streamlit as st
 st.set_page_config(page_title= "Lab2")
 
 # Show title and description.
-st.title("📄 Document question answering")
+st.title("Harshad Lab - Week 2")
 
 # Ask user for their OpenAI API key via `st.text_input`.
 # Alternatively, you can store the API key in `./.streamlit/secrets.toml` and access it
