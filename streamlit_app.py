@@ -14,3 +14,4 @@ lab2_page = st.Page("lab2.py", title="Lab2")
 pg = st.navigation([lab2_page, lab1_page])
 
 pg.run()
+
