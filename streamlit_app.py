@@ -11,7 +11,7 @@ st.title("Harshad Lab - Week 2")
 lab1_page = st.Page("lab1.py", title="Lab1")
 lab2_page = st.Page("lab2.py", title="Lab2")
 
-pg = st.navigation([lab2_page, lab1_page])
+pg = st.navigation([lab1_page, lab2_page])
 
 pg.run()
 
