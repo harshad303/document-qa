@@ -9,7 +9,7 @@ st.title("Harshad Lab - Week 2")
 # via `st.secrets`, see https://docs.streamlit.io/develop/concepts/connections/secrets-management
 
 lab1_page = st.Page("lab1.py", title="Lab1")
-lab2_page = st.Page("lab2.py", title="Lab2")
+lab2_page = st.Page("lab2.py", title="Lab2", default=True)
 
 pg = st.navigation([lab1_page, lab2_page])
 
