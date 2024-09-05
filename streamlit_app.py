@@ -1,5 +1,5 @@
 import streamlit as st
-
+st.set_page_config(page_title= "Lab2")
 
 # Show title and description.
 st.title("📄 Document question answering")
@@ -12,5 +12,5 @@ lab1_page = st.Page("lab1.py", title="Lab1")
 lab2_page = st.Page("lab2.py", title="Lab2")
 
 pg = st.navigation([lab1_page, lab2_page])
-st.set_page_config(page_title= "Lab2")
+
 pg.run()
