@@ -12,7 +12,7 @@ st.title("This is Lab 2")
 openai_api_key = st.secrets["OPENAI_KEY"] 
 
 if not openai_api_key:
-    st.info("Please add your OpenAI API key to continue.", icon="🗝️")
+    st.info("Please add your OpenAI API key to continue.")
 else:
 
     # Create an OpenAI client.
