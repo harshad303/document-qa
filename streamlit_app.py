@@ -1,5 +1,5 @@
 import streamlit as st
-st.set_page_config(page_title= "Lab2")
+st.set_page_config(page_title= "IST 688 Labs ")
 
 # Show title and description.
 st.title("Harshad Lab")
